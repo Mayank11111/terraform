@@ -4,6 +4,6 @@ resource "aws_instance" "web" {
        count = 1
        key_name = "terraformkey"
        tags = {
-        "Name" = "Teraserver"
+        "Name" = "newserver"
        }
 }
